@@ -1,0 +1,121 @@
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+body{
+    background-color: #b6bbc4;
+    position: relative;
+        margin: 0;
+        padding-bottom: 100px;
+}
+header{
+    background-color: #31304d;
+   margin: 0;
+   top: 0; left: 0; right: 0;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+        align-items: center;
+        padding: 2rem 9%;
+}
+nav{
+    text-align: center;
+    font-size: 2rem;
+        margin: 0 .8rem;
+        justify-content: space-between;
+      align-items: center;
+      
+}
+.logo{
+    font-size: 2.5rem;
+    margin: 0 .8rem;
+    color: #fff;
+    cursor: pointer;
+}
+a{
+    padding-left: 80px;
+    color: #fff;
+}
+a:hover{
+    color: orangered;
+}
+span{
+    color: tomato;
+}
+#cloud{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 100px;
+}
+#mountain{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin-top: 10%;
+}
+#top-cloud{
+    display: flex;
+        margin-top: 10%;
+        margin-left: 70%;
+}
+h1{
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.62rem;
+}
+#programmer{
+    text-align: center;
+        font-family: 'Sacramento', cursive;
+        font-size: 4rem;
+}
+#comp{
+    border-radius: 50%;
+        width: 25%;
+        float: left;
+        margin-right: 30px;
+}
+#p1{
+    
+    font-size: 1.9rem;
+    line-height: 4rem;
+    font-family: 'Playfair Display', serif;
+}
+    
+.skill{
+    width: 50%;
+        margin: 50px auto 50px auto;
+        text-align: left;
+        line-height: 2;
+}
+#chilli{
+    border-radius: 50%;
+        width: 25%;
+        float: right;
+        margin-right: 30px;
+}
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.footer{
+    background-color:#31304d ;
+    padding: 50px 0px 50px;
+    margin-top: 20px;
+    position: absolute;
+        bottom: 0; 
+        width: 100%;
+        text-align: center;
+}
+.footer-link {
+    font-size: 2rem ;
+}
+#copyright{
+    padding-top: 20px;
+    color:#b6bbc4;
+}
